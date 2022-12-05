@@ -1,0 +1,638 @@
+body * {
+  font-family: "Noto Sans KR", sans-serif;
+}
+body * img {
+  width: 100%;
+}
+body * a {
+  color: inherit;
+  text-decoration: none;
+}
+body * a:hover {
+  color: inherit;
+}
+body * .row > * {
+  padding: 0;
+  margin: 0;
+}
+body * .row {
+  padding: 0;
+}
+body * .container-lg {
+  padding-left: 0 !important;
+}
+body * button {
+  background-color: #111;
+  border: none;
+  color: #fff;
+  margin: 0;
+  padding: 10px 15px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+body * button:hover {
+  background-color: #fff;
+  color: #111;
+}
+
+main section {
+  margin: 70px 0;
+}
+
+header {
+  background-color: #282321;
+  padding: 20px 0;
+}
+header nav a.navbar-brand {
+  width: 170px;
+  height: 40px;
+  color: #fff;
+  font-size: 0;
+  background: url(../img/gnb_Timberland_BI.svg) no-repeat center center/contain;
+}
+header nav li.nav-item {
+  padding: 10px;
+}
+header nav li.nav-item a {
+  color: #fff;
+}
+header nav button.navbar-toggler {
+  border: none;
+}
+header nav button.navbar-toggler:focus {
+  box-shadow: 0 0 0 0;
+}
+header nav .fa-bars {
+  color: #fff;
+}
+
+footer {
+  background-color: #372D2E;
+  color: #999;
+  padding-bottom: 30px;
+}
+footer .footerMenu {
+  padding-top: 30px;
+}
+footer .footerMenu ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+footer .footerMenu ul li {
+  color: #fff;
+}
+footer .footerMenu ul li a {
+  font-weight: bold;
+}
+footer .footerMenu ul li:hover {
+  color: #EB8102;
+}
+footer address {
+  margin-top: 30px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  footer {
+    margin-top: 100px;
+  }
+  footer .footerMenu ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  footer .footerMenu ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+  }
+  footer address {
+    text-align: center;
+  }
+}
+main button.carousel-control-prev .controlWrap, main button.carousel-control-next .controlWrap {
+  background-color: #111;
+  border-radius: 50%;
+  padding: 10px;
+}
+main section#sc1 {
+  margin-top: 150px;
+}
+main section#sc1 .wrapper .leftContent {
+  margin: 0;
+}
+main section#sc1 .wrapper .leftContent .leftTop {
+  position: relative;
+}
+main section#sc1 .wrapper .leftContent .leftTop .textWrap {
+  position: absolute;
+  background-color: #fff;
+  top: 0;
+  padding: 30px 60px 30px 10px;
+}
+main section#sc1 .wrapper .leftContent .leftTop .textWrap p {
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: -1px;
+}
+main section#sc1 .wrapper .leftContent .leftTop .textWrap h3 {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 1.3;
+}
+main section#sc1 .wrapper .leftContent .bottom01 {
+  padding-right: 2px;
+}
+main section#sc1 .wrapper .leftContent .bottom01 .imgWrap {
+  background: url(../img/leftBottom01-1.jpg) no-repeat 0 0/cover;
+  aspect-ratio: 1;
+  transition: all 0.5s;
+}
+main section#sc1 .wrapper .leftContent .bottom01:hover .imgWrap {
+  background: url(../img/leftBottom01-2.jpg) no-repeat 0 0/cover;
+}
+main section#sc1 .wrapper .leftContent .bottom02 {
+  padding-left: 2px;
+}
+main section#sc1 .wrapper .leftContent .bottom02 .imgWrap {
+  background: url(../img/leftBottom02-1.jpg) no-repeat 0 0/cover;
+  aspect-ratio: 1;
+  transition: all 0.5s;
+}
+main section#sc1 .wrapper .leftContent .bottom02:hover .imgWrap {
+  background: url(../img/leftBottom02-2.jpg) no-repeat 0 0/cover;
+}
+main section#sc1 .wrapper .leftContent .textWrap {
+  padding-bottom: 20px;
+  background-color: #F2F2F2;
+}
+main section#sc1 .wrapper .leftContent .textWrap p {
+  font-size: 12px;
+}
+main section#sc1 .wrapper .leftContent .textWrap p:nth-of-type(1) {
+  margin-bottom: 10px;
+}
+main section#sc1 .wrapper .leftContent .textWrap p:nth-of-type(2) {
+  font-weight: bold;
+}
+main section#sc1 .wrapper .rightContent {
+  position: relative;
+}
+main section#sc1 .wrapper .rightContent img {
+  width: 100%;
+}
+main section#sc1 .wrapper .rightContent .textWrap {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  color: #fff;
+  padding: 30px;
+}
+main section#sc1 .wrapper .rightContent .textWrap p {
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: -1px;
+  padding-right: 10px;
+}
+main section#sc1 .wrapper .rightContent .textWrap h3 {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 1.3;
+}
+main section#sc2 > .textWrap {
+  font-size: 36px;
+  font-weight: 900;
+  letter-spacing: -2px;
+}
+main section#sc2 .swiperWrap {
+  position: relative;
+  width: 100%;
+}
+main section#sc2 .swiperWrap .swiper {
+  width: 100%;
+  margin-top: 50px;
+}
+main section#sc2 .swiperWrap .swiper .imgWrap01 {
+  background: url(../img/sc2_1-1.jpg) no-repeat 0 0/cover;
+  aspect-ratio: 1;
+  transition: all 0.5s;
+}
+main section#sc2 .swiperWrap .swiper .imgWrap01:hover {
+  background: url(../img/sc2_1-2.jpg) no-repeat 0 0/cover;
+}
+main section#sc2 .swiperWrap .swiper .imgWrap02 {
+  background: url(../img/sc2_2-1.jpg) no-repeat 0 0/cover;
+  aspect-ratio: 1;
+  transition: all 0.5s;
+}
+main section#sc2 .swiperWrap .swiper .imgWrap02:hover {
+  background: url(../img/sc2_2-2.jpg) no-repeat 0 0/cover;
+}
+main section#sc2 .swiperWrap .swiper .imgWrap03 {
+  background: url(../img/sc2_3-1.jpg) no-repeat 0 0/cover;
+  aspect-ratio: 1;
+  transition: all 0.5s;
+}
+main section#sc2 .swiperWrap .swiper .imgWrap03:hover {
+  background: url(../img/sc2_3-2.jpg) no-repeat 0 0/cover;
+}
+main section#sc2 .swiperWrap .swiper .imgWrap04 {
+  background: url(../img/sc2_4-1.jpg) no-repeat 0 0/cover;
+  aspect-ratio: 1;
+  transition: all 0.5s;
+}
+main section#sc2 .swiperWrap .swiper .imgWrap04:hover {
+  background: url(../img/sc2_4-2.jpg) no-repeat 0 0/cover;
+}
+main section#sc2 .swiperWrap .swiper .imgWrap05 {
+  background: url(../img/sc2_5-1.jpg) no-repeat 0 0/cover;
+  aspect-ratio: 1;
+  transition: all 0.5s;
+}
+main section#sc2 .swiperWrap .swiper .imgWrap05:hover {
+  background: url(../img/sc2_5-2.jpg) no-repeat 0 0/cover;
+}
+main section#sc2 .swiperWrap .swiper .imgWrap06 {
+  background: url(../img/sc2_6-1.jpg) no-repeat 0 0/cover;
+  aspect-ratio: 1;
+  transition: all 0.5s;
+}
+main section#sc2 .swiperWrap .swiper .imgWrap06:hover {
+  background: url(../img/sc2_6-2.jpg) no-repeat 0 0/cover;
+}
+main section#sc2 .swiperWrap .swiper .textWrap {
+  margin-top: 30px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+main section#sc2 .swiperWrap .swiper .textWrap p:nth-of-type(1) {
+  margin-bottom: 10px;
+}
+main section#sc2 .swiperWrap .swiper .textWrap p:nth-of-type(2) {
+  font-weight: bold;
+  letter-spacing: 0px;
+}
+main section#sc2 .swiperWrap .buttonWrap01, main section#sc2 .swiperWrap .buttonWrap02 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: -50px;
+  left: auto;
+  z-index: 9999;
+  background-color: black;
+}
+main section#sc2 .swiperWrap .buttonWrap01 {
+  right: 0;
+}
+main section#sc2 .swiperWrap .buttonWrap02 {
+  right: 60px;
+}
+main section#sc2 .swiperWrap .prev, main section#sc2 .swiperWrap .next {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 14px;
+  left: 15px;
+  border-bottom: 2px solid #fff;
+}
+main section#sc2 .swiperWrap .prev {
+  border-left: 2px solid #fff;
+  transform: rotate(45deg);
+}
+main section#sc2 .swiperWrap .next {
+  left: 10px;
+  border-right: 2px solid #fff;
+  transform: rotate(-45deg);
+}
+main section#sc2 .swiperWrap .swiper-button-prev:after, main section#sc2 .swiperWrap .swiper-button-next:after {
+  display: none;
+}
+main section#sc3 {
+  margin-top: 150px;
+}
+main section#sc3 .wrapper .leftContent .left {
+  position: relative;
+}
+main section#sc3 .wrapper .leftContent .left .textWrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  text-align: center;
+}
+main section#sc3 .wrapper .leftContent .left .textWrap h3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 1.3;
+}
+main section#sc3 .wrapper .leftContent .left .textWrap button {
+  margin-top: 30px;
+  font-size: 16px;
+  border: none;
+  background-color: #111;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 60px;
+  transition: all 0.3s;
+}
+main section#sc3 .wrapper .leftContent .left .textWrap button:hover {
+  background-color: #fff;
+  color: #111;
+}
+main section#sc3 .wrapper .rightContent {
+  position: relative;
+  margin: 0;
+}
+main section#sc3 .wrapper .rightContent .top01 {
+  position: relative;
+  padding-bottom: 60px;
+  background-color: #F2F2F2;
+}
+main section#sc3 .wrapper .rightContent .top01 .imgWrap {
+  background: url(../img/s3_rightTop01_1.jpg) no-repeat 0 0/cover;
+  aspect-ratio: 1;
+  transition: all 0.5s;
+}
+main section#sc3 .wrapper .rightContent .top01:hover .imgWrap {
+  background: url(../img/s3_rightTop01_2.jpg) no-repeat 0 0/cover;
+}
+main section#sc3 .wrapper .rightContent .top01 .textWrap {
+  position: absolute;
+  bottom: 30px;
+}
+main section#sc3 .wrapper .rightContent .top01 .textWrap p {
+  font-size: 12px;
+}
+main section#sc3 .wrapper .rightContent .top01 .textWrap p:nth-of-type(1) {
+  margin-bottom: 10px;
+}
+main section#sc3 .wrapper .rightContent .top01 .textWrap p:nth-of-type(2) {
+  font-weight: bold;
+}
+main section#sc3 .wrapper .rightContent .top02 {
+  position: relative;
+}
+main section#sc3 .wrapper .rightContent .top02 .imgWrap {
+  background: url(../img/s3_rigthTop02.jpg) no-repeat 0 0/cover;
+  aspect-ratio: 0.8;
+}
+main section#sc3 .wrapper .rightContent .top02 .textWrap {
+  position: absolute;
+  bottom: 20px;
+  right: 0px;
+  text-align: right;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+}
+main section#sc3 .wrapper .rightContent .top02 .textWrap p {
+  font-size: 12px;
+  font-weight: 600;
+}
+main section#sc3 .wrapper .rightContent .top02 .textWrap p:nth-of-type(1) {
+  margin-bottom: 5px;
+}
+main section#sc3 .wrapper .rightContent .bottom {
+  position: relative;
+}
+main section#sc3 .wrapper .rightContent .bottom .textWrap {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  color: #fff;
+}
+main section#sc3 .wrapper .rightContent .bottom .textWrap h3 {
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+main section#sc3 .wrapper .rightContent .bottom .textWrap button {
+  background-color: #111;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 12px;
+  font-weight: bold;
+  transition: all 0.3s;
+  margin-right: 10px;
+}
+main section#sc3 .wrapper .rightContent .bottom .textWrap button:hover {
+  background-color: #fff;
+  color: #111;
+}
+main section#sc4 > .textWrap {
+  font-size: 36px;
+  font-weight: 900;
+  letter-spacing: -2px;
+}
+main section#sc4 .swiperWrap {
+  position: relative;
+  width: 100%;
+}
+main section#sc4 .swiperWrap .swiper {
+  width: 100%;
+  margin-top: 50px;
+}
+main section#sc4 .swiperWrap .swiper .imgWrap01 {
+  background: url(../img/sc4_01-1.jpg) no-repeat 0 0/cover;
+  aspect-ratio: 1;
+  transition: all 0.5s;
+}
+main section#sc4 .swiperWrap .swiper .imgWrap01:hover {
+  background: url(../img/sc4_01-2.jpg) no-repeat 0 0/cover;
+}
+main section#sc4 .swiperWrap .swiper .imgWrap02 {
+  background: url(../img/sc4_02-1.jpg) no-repeat 0 0/cover;
+  aspect-ratio: 1;
+  transition: all 0.5s;
+}
+main section#sc4 .swiperWrap .swiper .imgWrap02:hover {
+  background: url(../img/sc4_02-2.jpg) no-repeat 0 0/cover;
+}
+main section#sc4 .swiperWrap .swiper .imgWrap03 {
+  background: url(../img/sc4_03-1.jpg) no-repeat 0 0/cover;
+  aspect-ratio: 1;
+  transition: all 0.5s;
+}
+main section#sc4 .swiperWrap .swiper .imgWrap03:hover {
+  background: url(../img/sc4_03-2.jpg) no-repeat 0 0/cover;
+}
+main section#sc4 .swiperWrap .swiper .imgWrap04 {
+  background: url(../img/sc4_04-1.jpg) no-repeat 0 0/cover;
+  aspect-ratio: 1;
+  transition: all 0.5s;
+}
+main section#sc4 .swiperWrap .swiper .imgWrap04:hover {
+  background: url(../img/sc4_04-2.jpg) no-repeat 0 0/cover;
+}
+main section#sc4 .swiperWrap .swiper .imgWrap05 {
+  background: url(../img/sc4_05-1.jpg) no-repeat 0 0/cover;
+  aspect-ratio: 1;
+  transition: all 0.5s;
+}
+main section#sc4 .swiperWrap .swiper .imgWrap05:hover {
+  background: url(../img/sc4_05-2.jpg) no-repeat 0 0/cover;
+}
+main section#sc4 .swiperWrap .swiper .imgWrap06 {
+  background: url(../img/sc4_06-1.jpg) no-repeat 0 0/cover;
+  aspect-ratio: 1;
+  transition: all 0.5s;
+}
+main section#sc4 .swiperWrap .swiper .imgWrap06:hover {
+  background: url(../img/sc4_06-2.jpg) no-repeat 0 0/cover;
+}
+main section#sc4 .swiperWrap .swiper .imgWrap07 {
+  background: url(../img/sc4_07-1.jpg) no-repeat 0 0/cover;
+  aspect-ratio: 1;
+  transition: all 0.5s;
+}
+main section#sc4 .swiperWrap .swiper .imgWrap07:hover {
+  background: url(../img/sc4_07-2.jpg) no-repeat 0 0/cover;
+}
+main section#sc4 .swiperWrap .swiper .imgWrap08 {
+  background: url(../img/sc4_08-1.jpg) no-repeat 0 0/cover;
+  aspect-ratio: 1;
+  transition: all 0.5s;
+}
+main section#sc4 .swiperWrap .swiper .imgWrap08:hover {
+  background: url(../img/sc4_08-2.jpg) no-repeat 0 0/cover;
+}
+main section#sc4 .swiperWrap .swiper .textWrap {
+  margin-top: 30px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+main section#sc4 .swiperWrap .swiper .textWrap p:nth-of-type(1) {
+  margin-bottom: 10px;
+}
+main section#sc4 .swiperWrap .swiper .textWrap p:nth-of-type(2) {
+  font-weight: bold;
+  letter-spacing: 0px;
+}
+main section#sc4 .swiperWrap .buttonWrap01, main section#sc4 .swiperWrap .buttonWrap02 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: -50px;
+  left: auto;
+  z-index: 9999;
+  background-color: black;
+}
+main section#sc4 .swiperWrap .buttonWrap01 {
+  right: 0;
+}
+main section#sc4 .swiperWrap .buttonWrap02 {
+  right: 60px;
+}
+main section#sc4 .swiperWrap .prev, main section#sc4 .swiperWrap .next {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 14px;
+  left: 15px;
+  border-bottom: 2px solid #fff;
+}
+main section#sc4 .swiperWrap .prev {
+  border-left: 2px solid #fff;
+  transform: rotate(45deg);
+}
+main section#sc4 .swiperWrap .next {
+  left: 10px;
+  border-right: 2px solid #fff;
+  transform: rotate(-45deg);
+}
+main section#sc4 .swiperWrap .swiper-button-prev:after, main section#sc4 .swiperWrap .swiper-button-next:after {
+  display: none;
+}
+main section#sc5 {
+  margin-top: 150px;
+}
+main section#sc5 .wrapper {
+  margin-left: 0;
+  position: relative;
+}
+main section#sc5 .wrapper .leftContainer {
+  background-color: #292421;
+  position: relative;
+}
+main section#sc5 .wrapper .leftContainer .textWrap {
+  position: absolute;
+  left: 30px;
+  bottom: 70px;
+  color: #fff;
+}
+main section#sc5 .wrapper .leftContainer .textWrap h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+main section#sc5 .wrapper .leftContainer .textWrap p {
+  line-height: 1.4;
+  margin: 20px 0;
+}
+main section#sc5 .wrapper button {
+  position: absolute;
+  width: 130px;
+  padding: 15px 10px;
+  left: 30px;
+  bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  main section#sc1 {
+    margin-top: 100px;
+  }
+  main section#sc1 .wrapper .leftContent .leftTop .textWrap {
+    padding: 30px 50px 20px 20px;
+  }
+  main section#sc1 .wrapper .leftContent .leftTop .textWrap p {
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: -1px;
+  }
+  main section#sc1 .wrapper .leftContent .leftTop .textWrap h3 {
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 1.3;
+  }
+  main section#sc3 .wrapper .leftContent .left .textWrap h3 {
+    font-size: 30px;
+  }
+  main section#sc3 .wrapper .leftContent .left .textWrap button {
+    font-size: 14px;
+  }
+  main section#sc5 .wrapper button {
+    position: absolute;
+    width: 220px;
+    left: 50%;
+    bottom: -50px;
+    transform: translateX(-50%);
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  main section#sc5 .wrapper button:hover {
+    border: 2px solid #111;
+    box-sizing: border-box;
+  }
+  main section#sc5 .wrapper .leftContainer .textWrap {
+    left: 10px;
+    bottom: 30px;
+  }
+  main section#sc5 .wrapper .leftContainer .textWrap h3 {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+  main section#sc5 .wrapper .leftContainer .textWrap p {
+    font-size: 12px;
+  }
+}

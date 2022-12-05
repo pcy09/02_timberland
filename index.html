@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>팀버랜드</title>
+		<!-- 부트스트랩 -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+		<!-- css -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.css"
+		/>
+		<link rel="stylesheet" href="css/main.css" />
+		<!-- 구글폰트 -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- 폰트어썸 -->
+		<script
+			src="https://kit.fontawesome.com/a9626ecfba.js"
+			crossorigin="anonymous"
+		></script>
+		<!-- swiper CDN -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+		/>
+		<!-- 제이쿼리 -->
+		<script
+			defer
+			src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"
+		></script>
+		<!-- 자바스크립트 -->
+		<script defer src="js/main.js"></script>
+	</head>
+	<body>
+		<header class="container-fluid">
+			<nav class="navbar navbar-expand-lg">
+				<div class="container-xxl">
+					<a class="navbar-brand" href="#">Navbar</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<i class="fa-solid fa-bars"></i>
+						<!-- <span class="navbar-toggler-icon"></span> -->
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#">ICON</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#">MEN</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#">WOMEN</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#">KIDS</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#">ACC</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#">SALE</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#"
+									>RESPONSIBILITY</a
+								>
+							</li>
+						</ul>
+						<form class="d-flex" role="search">
+							<input
+								class="form-control me-2"
+								type="search"
+								placeholder="Search"
+								aria-label="Search"
+							/>
+							<button class="btn btn-outline-success" type="submit">
+								Search
+							</button>
+						</form>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div
+				id="carouselExampleControls"
+				class="carousel slide"
+				data-bs-ride="carousel"
+			>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<a href="#">
+							<img src="img/main01.jpg" class="w-100 d-lg-none" alt="" />
+							<img
+								src="img/main_pc01.jpg"
+								class="d-none w-100 d-lg-block"
+								alt=""
+							/>
+						</a>
+					</div>
+					<div class="carousel-item">
+						<a href="#">
+							<img src="img/main02.jpg" class="d-lg-none w-100" alt="" />
+							<img
+								src="img/main_pc02.jpg"
+								class="d-none w-100 d-lg-block"
+								alt=""
+							/>
+						</a>
+					</div>
+					<div class="carousel-item">
+						<a href="#">
+							<img src="img/main03.jpg" class="d-lg-none w-100" alt="" />
+							<img
+								src="img/main_pc03.jpg"
+								class="d-none w-100 d-lg-block"
+								alt=""
+							/>
+						</a>
+					</div>
+				</div>
+				<button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#carouselExampleControls"
+					data-bs-slide="prev"
+				>
+					<div class="controlWrap">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					</div>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#carouselExampleControls"
+					data-bs-slide="next"
+				>
+					<div class="controlWrap">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					</div>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+			<section id="sc1" class="container-lg">
+				<div class="wrapper row">
+					<div class="leftContent row col-12 col-lg-6">
+						<div class="col-12 leftTop">
+							<img src="img/leftTop01.jpg" alt="" />
+							<div class="textWrap">
+								<p>Women's</p>
+								<h3>
+									TURBO HIKER<br />
+									SNEAKERS
+								</h3>
+							</div>
+						</div>
+						<div class="bottom01 col-6">
+							<a href="#">
+								<div class="imgWrap"></div>
+								<div class="textWrap">
+									<p class="ps-4">남성 터보 하이커 스니커즈</p>
+									<p class="ps-4">188,000 원</p>
+								</div>
+							</a>
+						</div>
+						<div class="bottom02 col-6">
+							<a href="#">
+								<div class="imgWrap"></div>
+								<div class="textWrap">
+									<p class="ps-4">남성 터보 하이커 스니커즈</p>
+									<p class="ps-4">188,000 원</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="rightContent col-12 col-lg-6">
+						<img src="img/right01.jpg" alt="" />
+						<div class="textWrap">
+							<p>Men's</p>
+							<h3>
+								TBL ORIGINAL<br />
+								ULTRA WORK BOOTS
+							</h3>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="sc2" class="container-lg">
+				<div class="textWrap">
+					<h2>NEW ARRIVALS</h2>
+				</div>
+				<div class="swiperWrap">
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<a href="#" class="swiper-slide">
+								<div class="imgWrap01"></div>
+								<div class="textWrap">
+									<p>남성 유로하이커</p>
+									<p>208,000 원</p>
+								</div>
+							</a>
+							<a href="#" class="swiper-slide">
+								<div class="imgWrap02"></div>
+								<div class="textWrap">
+									<p>남성 뉴마켓 6인치 부츠</p>
+									<p>238,000 원</p>
+								</div>
+							</a>
+							<a href="#" class="swiper-slide">
+								<div class="imgWrap03"></div>
+								<div class="textWrap">
+									<p>남성 뉴마켓 6인치 부츠</p>
+									<p>238,000 원</p>
+								</div>
+							</a>
+							<a href="#" class="swiper-slide">
+								<div class="imgWrap04"></div>
+								<div class="textWrap">
+									<p>3-in-1 벤톤 자켓</p>
+									<p>428,000 원</p>
+								</div>
+							</a>
+							<a href="#" class="swiper-slide">
+								<div class="imgWrap05"></div>
+								<div class="textWrap">
+									<p>3-in-1 벤톤 자켓</p>
+									<p>428,000 원</p>
+								</div>
+							</a>
+							<a href="#" class="swiper-slide">
+								<div class="imgWrap06"></div>
+								<div class="textWrap">
+									<p>3-in-1 벤톤 자켓</p>
+									<p>428,000 원</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="d-none d-lg-block buttonWrap01 swiper-button-next">
+						<div class="next"></div>
+					</div>
+					<div class="d-none d-lg-block buttonWrap02 swiper-button-prev">
+						<div class="prev"></div>
+					</div>
+				</div>
+			</section>
+			<section id="sc3" class="container-lg">
+				<div class="wrapper row">
+					<div class="leftContent col-12 col-lg-6">
+						<div class="col-12 left">
+							<img src="img/s3_left01.jpg" alt="" />
+							<div class="textWrap">
+								<h3>
+									TIMBERLAND®<br />
+									EARTHKEEPERS®<br />
+									BY RAEBURN
+								</h3>
+								<button>구매하기</button>
+							</div>
+						</div>
+					</div>
+					<div class="rightContent col-12 col-lg-6 row">
+						<div class="top01 col-6">
+							<a href="#">
+								<div class="imgWrap"></div>
+								<div class="textWrap">
+									<p class="ps-4">남성 터보 하이커 스니커즈</p>
+									<p class="ps-4">188,000 원</p>
+								</div>
+							</a>
+						</div>
+						<div class="top02 col-6">
+							<a href="#">
+								<div class="imgWrap"></div>
+								<div class="textWrap">
+									<p>EK+ 얼스키퍼스</p>
+									<p>플리스 집업 By Raeburn</p>
+								</div>
+							</a>
+						</div>
+						<div class="bottom col-12">
+							<img src="img/s3_rightBottom01.jpg" alt="" />
+							<div class="textWrap">
+								<h3>
+									EK + Utility<br />
+									Hiker Boots
+								</h3>
+								<button>MAN</button>
+								<button>WOMEN</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="sc4" class="container-lg">
+				<div class="textWrap">
+					<h2>NEW ARRIVALS</h2>
+				</div>
+				<div class="swiperWrap">
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<a href="#" class="swiper-slide">
+								<div class="imgWrap01"></div>
+								<div class="textWrap">
+									<p>남성 유틸리티 캔버스 봄버재킷</p>
+									<p>218,000 원</p>
+								</div>
+							</a>
+							<a href="#" class="swiper-slide">
+								<div class="imgWrap02"></div>
+								<div class="textWrap">
+									<p>남성 유틸리티 캔버스 봄버재킷</p>
+									<p>218,000 원</p>
+								</div>
+							</a>
+							<a href="#" class="swiper-slide">
+								<div class="imgWrap03"></div>
+								<div class="textWrap">
+									<p>남성 킬링턴 울트라 스니커즈</p>
+									<p>178,000 원</p>
+								</div>
+							</a>
+							<a href="#" class="swiper-slide">
+								<div class="imgWrap04"></div>
+								<div class="textWrap">
+									<p>남성 킬링턴 울트라 스니커즈</p>
+									<p>178,000 원</p>
+								</div>
+							</a>
+							<a href="#" class="swiper-slide">
+								<div class="imgWrap05"></div>
+								<div class="textWrap">
+									<p>남성 터보 하이커 스니커즈</p>
+									<p>188,000 원</p>
+								</div>
+							</a>
+							<a href="#" class="swiper-slide">
+								<div class="imgWrap06"></div>
+								<div class="textWrap">
+									<p>남성 Crestfield 옥스퍼드</p>
+									<p>182,400 원</p>
+								</div>
+							</a>
+							<a href="#" class="swiper-slide">
+								<div class="imgWrap07"></div>
+								<div class="textWrap">
+									<p>여성 킨스레이 통굽 워커부츠</p>
+									<p>206,400 원</p>
+								</div>
+							</a>
+							<a href="#" class="swiper-slide">
+								<div class="imgWrap08"></div>
+								<div class="textWrap">
+									<p>남성 Crestfield 옥스퍼드</p>
+									<p>182,400 원</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="d-none d-lg-block buttonWrap01 swiper-button-next">
+						<div class="next"></div>
+					</div>
+					<div class="d-none d-lg-block buttonWrap02 swiper-button-prev">
+						<div class="prev"></div>
+					</div>
+				</div>
+			</section>
+			<section id="sc5" class="container-lg">
+				<div class="wrapper row">
+					<div class="leftContainer col-6">
+						<div class="imgWrap d-none d-lg-block">
+							<img src="img/sc5_1.png" alt="" />
+						</div>
+						<div class="textWrap">
+							<h3>
+								팀버랜드<br />
+								신규가입 혜택
+							</h3>
+							<p>
+								공식 온라인몰 신규 회원 가입 시,<br />
+								즉시 사용 가능한 2만원 쿠폰 증정
+							</p>
+						</div>
+					</div>
+					<div class="rightContainer col-6 col-lg-3">
+						<div class="imgWrap">
+							<img src="img/sc5_2.png" alt="" />
+						</div>
+					</div>
+					<div class="rightContainer d-none d-lg-block col-lg-3">
+						<div class="imgWrap">
+							<img src="img/sc5_3.png" alt="" />
+						</div>
+					</div>
+					<button>신규 회원가입</button>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="container-lg">
+				<div class="footerMenu">
+					<ul>
+						<li><a href="#">ABOUT US</a></li>
+						<li><a href="#">CONTACT US</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">이용약관</a></li>
+					</ul>
+				</div>
+				<address>
+					<p>사업자 등록번호 : 111-11-11111</p>
+					<p>통신판매업 신고 : 1111-서울강남-11111호</p>
+					<p>ⓒ2017 TBL Licensing LLC. All Rights Reserved.</p>
+				</address>
+			</div>
+		</footer>
+		<!-- swiper js -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+	</body>
+</html>
