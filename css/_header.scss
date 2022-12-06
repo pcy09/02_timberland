@@ -1,31 +1,58 @@
-header{
-    background-color: #282321;
-    padding:20px 0;
-    nav{
-        a.navbar-brand{
-            width:170px;
-            height:40px;
-            color:#fff;
-            font-size: 0;
-            background: url(../img/gnb_Timberland_BI.svg) no-repeat center center / contain;
-        }
-        li.nav-item{
-            padding:10px;
-            a{
-                color:#fff;
-            }
-        }
-        .navbar-toggler-icon{
-        }
-        button.navbar-toggler{
-            border:none;
-            &:focus{
-                box-shadow: 0 0 0 0;
-            }
-        }
-        .fa-bars{
-            color:#fff;
-        }
-    }
+header {
+	background-color: #282321;
+	padding: 20px 0;
+	nav {
+		a.navbar-brand {
+			width: 170px;
+			height: 40px;
+			color: #fff;
+			font-size: 0;
+			background: url(../img/gnb_Timberland_BI.svg) no-repeat center center /
+				contain;
+		}
+		li.nav-item {
+			padding: 10px;
+			a {
+				color: #fff;
+				border-radius: 5px;
+				&:hover {
+					background-color: #fff;
+				}
+			}
+		}
+		.navbar-toggler-icon {
+		}
+		button.navbar-toggler {
+			border: none;
+			&:focus {
+				box-shadow: 0 0 0 0;
+			}
+			&:hover {
+				background-color: transparent;
+			}
+		}
+		.fa-bars {
+			color: #fff;
+		}
+		form {
+			border: 1px solid #7f7b78;
+			padding-right: 12px;
+			input.form-control {
+				background-color: transparent;
+				border: none;
+				&:focus {
+					border: none;
+					box-shadow: none;
+					background-color: transparent;
+					color: #fff;
+				}
+				&::placeholder {
+					color: #fff;
+				}
+			}
+			i {
+				color: #fff;
+			}
+		}
+	}
 }
-

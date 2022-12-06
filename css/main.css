@@ -55,6 +55,10 @@ header nav li.nav-item {
 }
 header nav li.nav-item a {
   color: #fff;
+  border-radius: 5px;
+}
+header nav li.nav-item a:hover {
+  background-color: #fff;
 }
 header nav button.navbar-toggler {
   border: none;
@@ -62,7 +66,36 @@ header nav button.navbar-toggler {
 header nav button.navbar-toggler:focus {
   box-shadow: 0 0 0 0;
 }
+header nav button.navbar-toggler:hover {
+  background-color: transparent;
+}
 header nav .fa-bars {
+  color: #fff;
+}
+header nav form {
+  border: 1px solid #7f7b78;
+  padding-right: 12px;
+}
+header nav form input.form-control {
+  background-color: transparent;
+  border: none;
+}
+header nav form input.form-control:focus {
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  color: #fff;
+}
+header nav form input.form-control::-moz-placeholder {
+  color: #fff;
+}
+header nav form input.form-control:-ms-input-placeholder {
+  color: #fff;
+}
+header nav form input.form-control::placeholder {
+  color: #fff;
+}
+header nav form i {
   color: #fff;
 }
 
@@ -113,7 +146,12 @@ footer address {
     text-align: center;
   }
 }
-main button.carousel-control-prev .controlWrap, main button.carousel-control-next .controlWrap {
+main button.carousel-control-prev:hover,
+main button.carousel-control-next:hover {
+  background-color: transparent;
+}
+main button.carousel-control-prev .controlWrap,
+main button.carousel-control-next .controlWrap {
   background-color: #111;
   border-radius: 50%;
   padding: 10px;
@@ -168,7 +206,7 @@ main section#sc1 .wrapper .leftContent .bottom02:hover .imgWrap {
 }
 main section#sc1 .wrapper .leftContent .textWrap {
   padding-bottom: 20px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 main section#sc1 .wrapper .leftContent .textWrap p {
   font-size: 12px;
@@ -278,7 +316,8 @@ main section#sc2 .swiperWrap .swiper .textWrap p:nth-of-type(2) {
   font-weight: bold;
   letter-spacing: 0px;
 }
-main section#sc2 .swiperWrap .buttonWrap01, main section#sc2 .swiperWrap .buttonWrap02 {
+main section#sc2 .swiperWrap .buttonWrap01,
+main section#sc2 .swiperWrap .buttonWrap02 {
   position: absolute;
   width: 40px;
   height: 40px;
@@ -293,7 +332,8 @@ main section#sc2 .swiperWrap .buttonWrap01 {
 main section#sc2 .swiperWrap .buttonWrap02 {
   right: 60px;
 }
-main section#sc2 .swiperWrap .prev, main section#sc2 .swiperWrap .next {
+main section#sc2 .swiperWrap .prev,
+main section#sc2 .swiperWrap .next {
   position: absolute;
   width: 15px;
   height: 15px;
@@ -310,7 +350,8 @@ main section#sc2 .swiperWrap .next {
   border-right: 2px solid #fff;
   transform: rotate(-45deg);
 }
-main section#sc2 .swiperWrap .swiper-button-prev:after, main section#sc2 .swiperWrap .swiper-button-next:after {
+main section#sc2 .swiperWrap .swiper-button-prev:after,
+main section#sc2 .swiperWrap .swiper-button-next:after {
   display: none;
 }
 main section#sc3 {
@@ -355,7 +396,7 @@ main section#sc3 .wrapper .rightContent {
 main section#sc3 .wrapper .rightContent .top01 {
   position: relative;
   padding-bottom: 60px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 main section#sc3 .wrapper .rightContent .top01 .imgWrap {
   background: url(../img/s3_rightTop01_1.jpg) no-repeat 0 0/cover;
@@ -519,7 +560,8 @@ main section#sc4 .swiperWrap .swiper .textWrap p:nth-of-type(2) {
   font-weight: bold;
   letter-spacing: 0px;
 }
-main section#sc4 .swiperWrap .buttonWrap01, main section#sc4 .swiperWrap .buttonWrap02 {
+main section#sc4 .swiperWrap .buttonWrap01,
+main section#sc4 .swiperWrap .buttonWrap02 {
   position: absolute;
   width: 40px;
   height: 40px;
@@ -534,7 +576,8 @@ main section#sc4 .swiperWrap .buttonWrap01 {
 main section#sc4 .swiperWrap .buttonWrap02 {
   right: 60px;
 }
-main section#sc4 .swiperWrap .prev, main section#sc4 .swiperWrap .next {
+main section#sc4 .swiperWrap .prev,
+main section#sc4 .swiperWrap .next {
   position: absolute;
   width: 15px;
   height: 15px;
@@ -551,7 +594,8 @@ main section#sc4 .swiperWrap .next {
   border-right: 2px solid #fff;
   transform: rotate(-45deg);
 }
-main section#sc4 .swiperWrap .swiper-button-prev:after, main section#sc4 .swiperWrap .swiper-button-next:after {
+main section#sc4 .swiperWrap .swiper-button-prev:after,
+main section#sc4 .swiperWrap .swiper-button-next:after {
   display: none;
 }
 main section#sc5 {
