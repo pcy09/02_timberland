@@ -150,11 +150,22 @@ main button.carousel-control-prev:hover,
 main button.carousel-control-next:hover {
   background-color: transparent;
 }
-main button.carousel-control-prev .controlWrap,
-main button.carousel-control-next .controlWrap {
-  background-color: #111;
-  border-radius: 50%;
-  padding: 10px;
+main button.carousel-control-prev span.carousel-control-prev-icon,
+main button.carousel-control-prev span.carousel-control-next-icon,
+main button.carousel-control-next span.carousel-control-prev-icon,
+main button.carousel-control-next span.carousel-control-next-icon {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(124, 124, 124, 0.1);
+}
+@media (max-width: 992px) {
+  main button.carousel-control-prev span.carousel-control-prev-icon,
+main button.carousel-control-prev span.carousel-control-next-icon,
+main button.carousel-control-next span.carousel-control-prev-icon,
+main button.carousel-control-next span.carousel-control-next-icon {
+    display: none;
+  }
 }
 main section#sc1 {
   margin-top: 150px;

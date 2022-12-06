@@ -8,10 +8,15 @@ main {
 		&:hover {
 			background-color: transparent;
 		}
-		.controlWrap {
-			background-color: #111;
-			border-radius: 50%;
-			padding: 10px;
+		span.carousel-control-prev-icon,
+		span.carousel-control-next-icon {
+			display: inline-block;
+			width: 100px;
+			height: 100px;
+			background-color: rgba(124, 124, 124, 0.1);
+			@media (max-width: 992px) {
+				display: none;
+			}
 		}
 	}
 	section#sc1 {
