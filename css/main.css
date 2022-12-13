@@ -270,7 +270,7 @@ main section#sc2 .swiperWrap .swiper {
 main section#sc2 .swiperWrap .swiper .imgWrap01 {
   background: url(../img/sc2_1-1.jpg) no-repeat 0 0/cover;
   aspect-ratio: 1;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 main section#sc2 .swiperWrap .swiper .imgWrap01:hover {
   background: url(../img/sc2_1-2.jpg) no-repeat 0 0/cover;
@@ -278,7 +278,7 @@ main section#sc2 .swiperWrap .swiper .imgWrap01:hover {
 main section#sc2 .swiperWrap .swiper .imgWrap02 {
   background: url(../img/sc2_2-1.jpg) no-repeat 0 0/cover;
   aspect-ratio: 1;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 main section#sc2 .swiperWrap .swiper .imgWrap02:hover {
   background: url(../img/sc2_2-2.jpg) no-repeat 0 0/cover;
@@ -286,7 +286,7 @@ main section#sc2 .swiperWrap .swiper .imgWrap02:hover {
 main section#sc2 .swiperWrap .swiper .imgWrap03 {
   background: url(../img/sc2_3-1.jpg) no-repeat 0 0/cover;
   aspect-ratio: 1;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 main section#sc2 .swiperWrap .swiper .imgWrap03:hover {
   background: url(../img/sc2_3-2.jpg) no-repeat 0 0/cover;
@@ -294,7 +294,7 @@ main section#sc2 .swiperWrap .swiper .imgWrap03:hover {
 main section#sc2 .swiperWrap .swiper .imgWrap04 {
   background: url(../img/sc2_4-1.jpg) no-repeat 0 0/cover;
   aspect-ratio: 1;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 main section#sc2 .swiperWrap .swiper .imgWrap04:hover {
   background: url(../img/sc2_4-2.jpg) no-repeat 0 0/cover;
@@ -302,7 +302,7 @@ main section#sc2 .swiperWrap .swiper .imgWrap04:hover {
 main section#sc2 .swiperWrap .swiper .imgWrap05 {
   background: url(../img/sc2_5-1.jpg) no-repeat 0 0/cover;
   aspect-ratio: 1;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 main section#sc2 .swiperWrap .swiper .imgWrap05:hover {
   background: url(../img/sc2_5-2.jpg) no-repeat 0 0/cover;
@@ -310,7 +310,7 @@ main section#sc2 .swiperWrap .swiper .imgWrap05:hover {
 main section#sc2 .swiperWrap .swiper .imgWrap06 {
   background: url(../img/sc2_6-1.jpg) no-repeat 0 0/cover;
   aspect-ratio: 1;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 main section#sc2 .swiperWrap .swiper .imgWrap06:hover {
   background: url(../img/sc2_6-2.jpg) no-repeat 0 0/cover;
@@ -498,7 +498,7 @@ main section#sc4 .swiperWrap .swiper {
 main section#sc4 .swiperWrap .swiper .imgWrap01 {
   background: url(../img/sc4_01-1.jpg) no-repeat 0 0/cover;
   aspect-ratio: 1;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 main section#sc4 .swiperWrap .swiper .imgWrap01:hover {
   background: url(../img/sc4_01-2.jpg) no-repeat 0 0/cover;
@@ -506,7 +506,7 @@ main section#sc4 .swiperWrap .swiper .imgWrap01:hover {
 main section#sc4 .swiperWrap .swiper .imgWrap02 {
   background: url(../img/sc4_02-1.jpg) no-repeat 0 0/cover;
   aspect-ratio: 1;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 main section#sc4 .swiperWrap .swiper .imgWrap02:hover {
   background: url(../img/sc4_02-2.jpg) no-repeat 0 0/cover;
@@ -514,7 +514,7 @@ main section#sc4 .swiperWrap .swiper .imgWrap02:hover {
 main section#sc4 .swiperWrap .swiper .imgWrap03 {
   background: url(../img/sc4_03-1.jpg) no-repeat 0 0/cover;
   aspect-ratio: 1;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 main section#sc4 .swiperWrap .swiper .imgWrap03:hover {
   background: url(../img/sc4_03-2.jpg) no-repeat 0 0/cover;
@@ -522,7 +522,7 @@ main section#sc4 .swiperWrap .swiper .imgWrap03:hover {
 main section#sc4 .swiperWrap .swiper .imgWrap04 {
   background: url(../img/sc4_04-1.jpg) no-repeat 0 0/cover;
   aspect-ratio: 1;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 main section#sc4 .swiperWrap .swiper .imgWrap04:hover {
   background: url(../img/sc4_04-2.jpg) no-repeat 0 0/cover;
@@ -530,7 +530,7 @@ main section#sc4 .swiperWrap .swiper .imgWrap04:hover {
 main section#sc4 .swiperWrap .swiper .imgWrap05 {
   background: url(../img/sc4_05-1.jpg) no-repeat 0 0/cover;
   aspect-ratio: 1;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 main section#sc4 .swiperWrap .swiper .imgWrap05:hover {
   background: url(../img/sc4_05-2.jpg) no-repeat 0 0/cover;
@@ -538,7 +538,7 @@ main section#sc4 .swiperWrap .swiper .imgWrap05:hover {
 main section#sc4 .swiperWrap .swiper .imgWrap06 {
   background: url(../img/sc4_06-1.jpg) no-repeat 0 0/cover;
   aspect-ratio: 1;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 main section#sc4 .swiperWrap .swiper .imgWrap06:hover {
   background: url(../img/sc4_06-2.jpg) no-repeat 0 0/cover;
@@ -546,7 +546,7 @@ main section#sc4 .swiperWrap .swiper .imgWrap06:hover {
 main section#sc4 .swiperWrap .swiper .imgWrap07 {
   background: url(../img/sc4_07-1.jpg) no-repeat 0 0/cover;
   aspect-ratio: 1;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 main section#sc4 .swiperWrap .swiper .imgWrap07:hover {
   background: url(../img/sc4_07-2.jpg) no-repeat 0 0/cover;
@@ -554,7 +554,7 @@ main section#sc4 .swiperWrap .swiper .imgWrap07:hover {
 main section#sc4 .swiperWrap .swiper .imgWrap08 {
   background: url(../img/sc4_08-1.jpg) no-repeat 0 0/cover;
   aspect-ratio: 1;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 main section#sc4 .swiperWrap .swiper .imgWrap08:hover {
   background: url(../img/sc4_08-2.jpg) no-repeat 0 0/cover;
